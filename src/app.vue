@@ -10,7 +10,7 @@
       <router-link to="/cp1">显示子组件</router-link>
       <router-view></router-view>
       <h1>axios+mockjs测试</h1>
-      <button @click="axios2">发送get请求</button>
+      <button @click="axios2">发送get请求，控制台查看效果</button>
       <h1>mintUI测试</h1>
       <mt-button type="default">default</mt-button>
       <h1>zepto测试</h1>
