@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import cp1 from "./componets/cp1.vue"
+import cp1 from "./componets/cp1"
 export default {
   components:{
       cp1:cp1
