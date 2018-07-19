@@ -12,6 +12,10 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: "bundle.js"
     },
+     //解决import组件文件时需要.vue后缀的问题
+    resolve: {
+        extensions:['.js','.vue']
+    },
     module: {
         //对应文件加载器
         loaders: [{
