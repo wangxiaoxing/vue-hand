@@ -2,7 +2,19 @@
 用webpack手动搭建vue2项目
 安装了vue、vuex、vue-router、axios、mockjs、zepto、mint-ui、babel等依赖。
 
-一些注意事项及命令：
+一、使用方法：
+
+clone到本地后进入目录，
+
+cnpm install
+
+cnpm run server
+
+打包命令为：
+
+cnpm run build
+
+二、一些注意事项及命令：
 
 1.cnpm init 生成package.json
 
